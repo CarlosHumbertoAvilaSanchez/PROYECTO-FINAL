@@ -1,7 +1,12 @@
+a{
+    text-decoration: none;
+    color: #000;
+}
 .header-container{
     height: 100px;
     width: 100%;
     background-color: #eee;
+    display: flex;
 }
 
 .header-logo{
@@ -11,4 +16,36 @@
 
 .header-logo-img{
     height: 100%;
+}
+
+.header-nav-container{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-nav{
+    width: 100%;
+}
+.header-nav-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.header-nav-option{
+    display: inline-block;
+}
+.header-nav-option a{
+    font-size: 20px;   
+    font-weight: 500; 
+    color: rgb(254,0,1);
+    transition: all .5s;
+    font-family: 'Chivo Mono';
+
+}
+.header-nav-option a:hover{
+    color: #900;
+
 }
